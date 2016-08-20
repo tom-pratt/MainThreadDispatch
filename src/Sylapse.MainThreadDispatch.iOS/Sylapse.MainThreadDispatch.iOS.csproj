@@ -59,6 +59,7 @@
     <Compile Include="..\Sylapse.MainThreadDispatch\Dispatch.cs">
       <Link>Dispatch.cs</Link>
     </Compile>
+    <Compile Include="MainThreadDispatcher.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
