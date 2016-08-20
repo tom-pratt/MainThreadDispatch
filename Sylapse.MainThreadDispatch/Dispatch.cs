@@ -14,7 +14,7 @@ namespace Sylapse.MainThreadDispatch
         public static bool Dispatch<T>(this ObservableObject observableObject, SetFunc<T> set, Expression<Func<T>> propertyExpression, ref T field, T newValue)
         {
 #if PORTABLE
-            throw new PlatformNotSupportedException("Please visit the Sylapse Github to find out about supporting other platforms");
+            throw new PlatformNotSupportedException("Please visit the Sylapse.MainThreadDispatch Github page to find out about supporting other platforms");
 #else
             return set(propertyExpression, ref field, newValue);
 #endif
