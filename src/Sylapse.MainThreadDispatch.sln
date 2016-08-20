@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sylapse.MainThreadDispatch.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{745990FC-95FD-4732-B8A7-3A7EE85BF608}"
 	ProjectSection(SolutionItems) = preProject
-		Sylapse.Plugin.nuspec = Sylapse.Plugin.nuspec
+		..\nuget\Sylapse.Plugin.nuspec = ..\nuget\Sylapse.Plugin.nuspec
 	EndProjectSection
 EndProject
 Global
