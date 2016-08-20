@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata minClientVersion="2.8.3">
+		<id>Sylapse.MainThreadDispatch</id>
+		<version>1.0.0</version>
+		<title>Helper to RaisePropertyChanged on the UI thread in MvvmLight</title>
+		<authors>Tom Pratt</authors>
+		<owners>Tom Pratt</owners>
+		<licenseUrl/>
+		<projectUrl/>
+
+    <iconUrl />
+
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>
+         Long description for your plugin.
+		</description>
+		<summary>Short description for your plugin.</summary>
+		<tags>xamarin, pcl, android, ios, mvvmlight, main thread, ui thread, raisepropertychanged, dispatch, dispatch helper</tags>
+		<dependencies>
+      <!--
+			<group targetFramework="net">
+			</group>
+			<group targetFramework="win">
+			</group>
+			<group targetFramework="wp">
+			</group>
+			<group targetFramework="wpa">
+			</group>
+			<group targetFramework="MonoAndroid">
+			</group>
+			<group targetFramework="Xamarin.iOS10">
+			</group>
+			<group targetFramework="Xamarin.Mac20">
+			</group>
+			<group targetFramework="portable-net45+win+wpa81+wp80">
+			</group>
+			<group targetFramework="uap">
+			</group>
+			<group targetFramework="dotnet">
+			</group>
+      -->
+		</dependencies>
+	</metadata>
+	<files>
+		<!--Core-->
+		<file src="Sylapse\Plugin.Sylapse\bin\Release\Plugin.Sylapse.dll" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.Sylapse.dll" />
+		<file src="Sylapse\Plugin.Sylapse\bin\Release\Plugin.Sylapse.xml" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.Sylapse.xml" />
+		<file src="Sylapse\Plugin.Sylapse\bin\Release\Plugin.Sylapse.pdb" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.Sylapse.pdb" />
+		<file src="Sylapse\Plugin.Sylapse.Abstractions\bin\Release\Plugin.Sylapse.Abstractions.dll" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.Sylapse.Abstractions.dll" />
+		<file src="Sylapse\Plugin.Sylapse.Abstractions\bin\Release\Plugin.Sylapse.Abstractions.xml" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.Sylapse.Abstractions.xml" />
+		<file src="Sylapse\Plugin.Sylapse.Abstractions\bin\Release\Plugin.Sylapse.Abstractions.pdb" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.Sylapse.Abstractions.pdb" />		
+		
+		<!--dotnet
+		<file src="Sylapse\Plugin.Sylapse\bin\Release\Plugin.Sylapse.dll" target="lib\dotnet\Plugin.Sylapse.dll" />
+		<file src="Sylapse\Plugin.Sylapse\bin\Release\Plugin.Sylapse.xml" target="lib\dotnet\Plugin.Sylapse.xml" />
+		<file src="Sylapse\Plugin.Sylapse\bin\Release\Plugin.Sylapse.pdb" target="lib\dotnet\Plugin.Sylapse.pdb" />
+		<file src="Sylapse\Plugin.Sylapse.Abstractions\bin\Release\Plugin.Sylapse.Abstractions.dll" target="lib\dotnet\Plugin.Sylapse.Abstractions.dll" />
+		<file src="Sylapse\Plugin.Sylapse.Abstractions\bin\Release\Plugin.Sylapse.Abstractions.xml" target="lib\dotnet\Plugin.Sylapse.Abstractions.xml" />
+		<file src="Sylapse\Plugin.Sylapse.Abstractions\bin\Release\Plugin.Sylapse.Abstractions.pdb" target="lib\dotnet\Plugin.Sylapse.Abstractions.pdb" />-->
+
+    <!--Win Phone Silverlight
+		<file src="Sylapse\Plugin.Sylapse.WindowsPhone8\bin\Release\Plugin.Sylapse.dll" target="lib\wp8\Plugin.Sylapse.dll" />
+		<file src="Sylapse\Plugin.Sylapse.WindowsPhone8\bin\Release\Plugin.Sylapse.xml" target="lib\wp8\Plugin.Sylapse.xml" />
+		<file src="Sylapse\Plugin.Sylapse.WindowsPhone8\bin\Release\Plugin.Sylapse.pdb" target="lib\wp8\Plugin.Sylapse.pdb" />
+		<file src="Sylapse\Plugin.Sylapse.Abstractions\bin\Release\Plugin.Sylapse.Abstractions.dll" target="lib\wp8\Plugin.Sylapse.Abstractions.dll" />
+		<file src="Sylapse\Plugin.Sylapse.Abstractions\bin\Release\Plugin.Sylapse.Abstractions.xml" target="lib\wp8\Plugin.Sylapse.Abstractions.xml" />
+		<file src="Sylapse\Plugin.Sylapse.Abstractions\bin\Release\Plugin.Sylapse.Abstractions.pdb" target="lib\wp8\Plugin.Sylapse.Abstractions.pdb" />-->
+
+    <!--Win Phone 81
+		<file src="Sylapse\Plugin.Sylapse.WindowsPhone81\bin\Release\Plugin.Sylapse.dll" target="lib\wpa81\Plugin.Sylapse.dll" />
+		<file src="Sylapse\Plugin.Sylapse.WindowsPhone81\bin\Release\Plugin.Sylapse.xml" target="lib\wpa81\Plugin.Sylapse.xml" />
+		<file src="Sylapse\Plugin.Sylapse.WindowsPhone81\bin\Release\Plugin.Sylapse.pdb" target="lib\wpa81\Plugin.Sylapse.pdb" />
+		<file src="Sylapse\Plugin.Sylapse.Abstractions\bin\Release\Plugin.Sylapse.Abstractions.dll" target="lib\wpa81\Plugin.Sylapse.Abstractions.dll" />
+		<file src="Sylapse\Plugin.Sylapse.Abstractions\bin\Release\Plugin.Sylapse.Abstractions.xml" target="lib\wpa81\Plugin.Sylapse.Abstractions.xml" />
+		<file src="Sylapse\Plugin.Sylapse.Abstractions\bin\Release\Plugin.Sylapse.Abstractions.pdb" target="lib\wpa81\Plugin.Sylapse.Abstractions.pdb" />-->
+
+    <!--WinStore
+		<file src="Sylapse\Plugin.Sylapse.WindowsStore\bin\Release\Plugin.Sylapse.dll" target="lib\win8\Plugin.Sylapse.dll" />
+		<file src="Sylapse\Plugin.Sylapse.WindowsStore\bin\Release\Plugin.Sylapse.xml" target="lib\win8\Plugin.Sylapse.xml" />
+		<file src="Sylapse\Plugin.Sylapse.WindowsStore\bin\Release\Plugin.Sylapse.pdb" target="lib\win8\Plugin.Sylapse.pdb" />
+		<file src="Sylapse\Plugin.Sylapse.Abstractions\bin\Release\Plugin.Sylapse.Abstractions.dll" target="lib\win8\Plugin.Sylapse.Abstractions.dll" />
+		<file src="Sylapse\Plugin.Sylapse.Abstractions\bin\Release\Plugin.Sylapse.Abstractions.xml" target="lib\win8\Plugin.Sylapse.Abstractions.xml" />
+		<file src="Sylapse\Plugin.Sylapse.Abstractions\bin\Release\Plugin.Sylapse.Abstractions.pdb" target="lib\win8\Plugin.Sylapse.Abstractions.pdb" />-->
+
+    <!--Xamarin.Android-->
+		<file src="Sylapse\Plugin.Sylapse.Android\bin\Release\Plugin.Sylapse.dll" target="lib\MonoAndroid10\Plugin.Sylapse.dll" />
+		<file src="Sylapse\Plugin.Sylapse.Android\bin\Release\Plugin.Sylapse.xml" target="lib\MonoAndroid10\Plugin.Sylapse.xml" />
+		<file src="Sylapse\Plugin.Sylapse.Android\bin\Release\Plugin.Sylapse.pdb" target="lib\MonoAndroid10\Plugin.Sylapse.pdb" />
+		<file src="Sylapse\Plugin.Sylapse.Abstractions\bin\Release\Plugin.Sylapse.Abstractions.dll" target="lib\MonoAndroid10\Plugin.Sylapse.Abstractions.dll" />
+		<file src="Sylapse\Plugin.Sylapse.Abstractions\bin\Release\Plugin.Sylapse.Abstractions.xml" target="lib\MonoAndroid10\Plugin.Sylapse.Abstractions.xml" />
+		<file src="Sylapse\Plugin.Sylapse.Abstractions\bin\Release\Plugin.Sylapse.Abstractions.pdb" target="lib\MonoAndroid10\Plugin.Sylapse.Abstractions.pdb" />
+
+		<!--Xamarin.iOS-->
+		<file src="Sylapse\Plugin.Sylapse.iOS\bin\iPhone\Release\Plugin.Sylapse.dll" target="lib\Xamarin.iOS10\Plugin.Sylapse.dll" />
+		<file src="Sylapse\Plugin.Sylapse.iOS\bin\iPhone\Release\Plugin.Sylapse.xml" target="lib\Xamarin.iOS10\Plugin.Sylapse.xml" />
+		<file src="Sylapse\Plugin.Sylapse.Abstractions\bin\Release\Plugin.Sylapse.Abstractions.dll" target="lib\Xamarin.iOS10\Plugin.Sylapse.Abstractions.dll" />
+		<file src="Sylapse\Plugin.Sylapse.Abstractions\bin\Release\Plugin.Sylapse.Abstractions.xml" target="lib\Xamarin.iOS10\Plugin.Sylapse.Abstractions.xml" />
+
+		<!--uap
+		<file src="Sylapse\Plugin.Sylapse.UWP\bin\Release\Plugin.Sylapse.dll" target="lib\UAP10\Plugin.Sylapse.dll" />
+		<file src="Sylapse\Plugin.Sylapse.UWP\bin\Release\Plugin.Sylapse.xml" target="lib\UAP10\Plugin.Sylapse.xml" />
+		<file src="Sylapse\Plugin.Sylapse.UWP\bin\Release\Plugin.Sylapse.pdb" target="lib\UAP10\Plugin.Sylapse.pdb" />
+		<file src="Sylapse\Plugin.Sylapse.Abstractions\bin\Release\Plugin.Sylapse.Abstractions.dll" target="lib\UAP10\Plugin.Sylapse.Abstractions.dll" />
+		<file src="Sylapse\Plugin.Sylapse.Abstractions\bin\Release\Plugin.Sylapse.Abstractions.xml" target="lib\UAP10\Plugin.Sylapse.Abstractions.xml" />
+		<file src="Sylapse\Plugin.Sylapse.Abstractions\bin\Release\Plugin.Sylapse.Abstractions.pdb" target="lib\UAP10\Plugin.Sylapse.Abstractions.pdb" />-->
+		
+		<!--Xamarin.Mac
+		<file src="Sylapse\Plugin.Sylapse.Mac\bin\iPhone\Release\Plugin.Sylapse.dll" target="lib\Xamarin.Mac20\Plugin.Sylapse.dll" />
+		<file src="Sylapse\Plugin.Sylapse.Mac\bin\iPhone\Release\Plugin.Sylapse.xml" target="lib\Xamarin.Mac20\Plugin.Sylapse.xml" />
+		<file src="Sylapse\Plugin.Sylapse.Abstractions\bin\Release\Plugin.Sylapse.Abstractions.dll" target="lib\Xamarin.Mac20\Plugin.Sylapse.Abstractions.dll" />
+		<file src="Sylapse\Plugin.Sylapse.Abstractions\bin\Release\Plugin.Sylapse.Abstractions.xml" target="lib\Xamarin.Mac20\Plugin.Sylapse.Abstractions.xml" />
+        -->
+	</files>
+</package>
