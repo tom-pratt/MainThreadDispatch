@@ -1,8 +1,8 @@
 # MainThreadDispatch
 
-A helper for MvvmLight to ensure that RaisePropertyChanged is called on the UI thread.
+A helper for MvvmLight to ensure that RaisePropertyChanged is called on the UI thread. Similar to DispatcherHelper but intended for PCL projects.
 
-In your view models, instead of using these usual methods.
+In your view models, instead of using these usual Set methods.
 
 ```
 Set (() => MyProperty, ref _myProperty, value)
@@ -10,7 +10,7 @@ Set ("MyProperty", ref _myProperty, value)
 Set (ref _myProperty, value)
 ```
 
-Add `using Sylapse.MainThreadDispatch;` to your view model class and use the following extension methods.
+Add `using Sylapse.MainThreadDispatch;` and use the following extension methods.
 
 ```
 this.DispatchSet (() => MyProperty, ref _myProperty, value)
@@ -35,4 +35,4 @@ Add MainThreadDispatch to your PCL and platform projects. Currently supported pl
 - Xamarin.Android
 - Xamarin.iOS
 
-UWP and other Windows platforms coming soon. Pull requests welcome.
+UWP and other Windows platforms coming soon.
