@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("Sylapse.MainThreadDispatch.Android.Resource", IsApplication=false)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("Sylapse.MainThreadDispatch.Resource", IsApplication=false)]
 
-namespace Sylapse.MainThreadDispatch.Android
+namespace Sylapse.MainThreadDispatch
 {
 	
 	

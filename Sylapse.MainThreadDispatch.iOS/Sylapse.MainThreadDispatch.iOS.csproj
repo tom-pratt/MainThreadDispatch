@@ -8,9 +8,9 @@
     <ProjectGuid>{BAE3CD44-1B57-4E5E-A21B-B027071D99D0}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>Sylapse.MainThreadDispatch.iOS</RootNamespace>
+    <RootNamespace>Sylapse.MainThreadDispatch</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>Sylapse.MainThreadDispatch.iOS</AssemblyName>
+    <AssemblyName>Sylapse.MainThreadDispatch</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
