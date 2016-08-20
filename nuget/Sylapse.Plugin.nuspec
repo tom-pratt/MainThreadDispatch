@@ -15,10 +15,10 @@
 
       <requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<description>
-      An MvvmLight helper for calling RaisePropertyChanged on the UI thread.
+      An MvvmLight helper for calling RaisePropertyChanged on the UI thread from a PCL. See Project Site for more details
     </description>
-		<summary>An MvvmLight helper for calling RaisePropertyChanged on the UI thread.</summary>
-		<tags>xamarin, pcl, android, ios, mvvmlight, main thread, ui thread, raisepropertychanged, dispatch, dispatch helper</tags>
+		<summary>An MvvmLight helper for calling RaisePropertyChanged on the UI thread from a PCL.</summary>
+		<tags>xamarin, android, ios, mvvmlight, main thread, ui thread, raisepropertychanged, dispatch, dispatcher, dispatcher helper, dispatcherhelper</tags>
 		<dependencies>
       <dependency id="MvvmLightLibs" version="5.3.0"/>
       <!--
