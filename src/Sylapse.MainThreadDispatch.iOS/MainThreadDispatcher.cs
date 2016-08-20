@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using CoreFoundation;
 
 namespace Sylapse.MainThreadDispatch
 {
@@ -15,7 +16,7 @@ namespace Sylapse.MainThreadDispatch
 
         public void Execute(Action action)
         {
-            throw new NotImplementedException();
+            DispatchQueue.MainQueue.DispatchAsync(action);
         }
     }
 }
