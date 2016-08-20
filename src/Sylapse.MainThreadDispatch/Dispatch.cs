@@ -65,7 +65,7 @@ namespace Sylapse.MainThreadDispatch
 
         static Exception NotSupported()
         {
-            return new PlatformNotSupportedException("Make sure MainThreadDispatcher is added to your platform project. Otherwise, please visit the Sylapse.MainThreadDispatch Github page to find out about supporting other platforms");
+            return new PlatformNotSupportedException("Make sure Sylapse.MainThreadDispatcher is added to your platform project. If it is then you are probably using an unsupported platform, please visit https://github.com/Sylapse/MainThreadDispatch to find out about supporting other platforms");
         }
     }
 }
