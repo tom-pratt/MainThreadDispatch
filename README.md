@@ -26,6 +26,14 @@ this.Dispatch (() => {
 });
 ```
 
+To execute code on the UI thread from a PCL but outside of a ViewModel class use
+
+```
+MainThreadDispatcher.Instance.Execute (() => {
+    // Code to execute on the UI thread
+});
+```
+
 ## Nuget
 
 https://www.nuget.org/packages/Sylapse.MainThreadDispatch
@@ -34,5 +42,4 @@ Add MainThreadDispatch to your PCL and platform projects. Currently supported pl
 
 - Xamarin.Android
 - Xamarin.iOS
-
-UWP and other Windows platforms coming soon.
+- UWP
