@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
 	<metadata minClientVersion="2.8.3">
 		<id>Sylapse.MainThreadDispatch</id>
-		<version>1.0.0</version>
+		<version>1.0.1</version>
 		<title>MainThreadDispatch for MvvmLight</title>
 		<authors>Tom Pratt</authors>
 		<owners>Tom Pratt</owners>
@@ -18,9 +18,11 @@
       An MvvmLight helper for calling RaisePropertyChanged on the UI thread from a PCL. See Project Site for more details
     </description>
 		<summary>An MvvmLight helper for calling RaisePropertyChanged on the UI thread from a PCL.</summary>
-		<tags>xamarin, android, ios, mvvmlight, main thread, ui thread, raisepropertychanged, dispatch, dispatcher, dispatcher helper, dispatcherhelper</tags>
+		<tags>xamarin, android, ios, uwp, mvvmlight, main thread, ui thread, raisepropertychanged, dispatch, dispatcher, helper, dispatcherhelper</tags>
 		<dependencies>
-      <dependency id="MvvmLightLibs" version="5.3.0"/>
+      <group>
+        <dependency id="MvvmLightLibs" version="5.3.0"/>
+      </group>
       <!--
       <group targetFramework="portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10">
       </group>
@@ -88,13 +90,9 @@
 		<!--Xamarin.iOS-->
 		<file src="..\src\Sylapse.MainThreadDispatch.iOS\bin\Release\Sylapse.MainThreadDispatch.dll" target="lib\Xamarin.iOS10\Sylapse.MainThreadDispatch.dll" />
 
-		<!--uap
-		<file src="Sylapse.MainThreadDispatch.UWP\bin\Release\Sylapse.MainThreadDispatch.dll" target="lib\UAP10\Sylapse.MainThreadDispatch.dll" />
-		<file src="Sylapse.MainThreadDispatch.UWP\bin\Release\Sylapse.MainThreadDispatch.xml" target="lib\UAP10\Sylapse.MainThreadDispatch.xml" />
-		<file src="Sylapse.MainThreadDispatch.UWP\bin\Release\Sylapse.MainThreadDispatch.pdb" target="lib\UAP10\Sylapse.MainThreadDispatch.pdb" />
-		<file src="Sylapse.MainThreadDispatch.Abstractions\bin\Release\Plugin.Sylapse.Abstractions.dll" target="lib\UAP10\Plugin.Sylapse.Abstractions.dll" />
-		<file src="Sylapse.MainThreadDispatch.Abstractions\bin\Release\Plugin.Sylapse.Abstractions.xml" target="lib\UAP10\Plugin.Sylapse.Abstractions.xml" />
-		<file src="Sylapse.MainThreadDispatch.Abstractions\bin\Release\Plugin.Sylapse.Abstractions.pdb" target="lib\UAP10\Plugin.Sylapse.Abstractions.pdb" />-->
+    <!--UWP-->
+    <file src="..\src\Sylapse.MainThreadDispatch.UWP\bin\Release\Sylapse.MainThreadDispatch.dll" target="lib\UAP10\Sylapse.MainThreadDispatch.dll" />
+    <file src="..\src\Sylapse.MainThreadDispatch.UWP\bin\Release\Sylapse.MainThreadDispatch.pdb" target="lib\UAP10\Sylapse.MainThreadDispatch.pdb" />
 		
 		<!--Xamarin.Mac
 		<file src="Sylapse.MainThreadDispatch.Mac\bin\iPhone\Release\Sylapse.MainThreadDispatch.dll" target="lib\Xamarin.Mac20\Sylapse.MainThreadDispatch.dll" />
