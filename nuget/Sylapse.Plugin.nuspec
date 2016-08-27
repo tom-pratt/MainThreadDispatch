@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
 	<metadata minClientVersion="2.8.3">
 		<id>Sylapse.MainThreadDispatch</id>
-		<version>1.0.1</version>
+		<version>1.0.2</version>
 		<title>MainThreadDispatch for MvvmLight</title>
 		<authors>Tom Pratt</authors>
 		<owners>Tom Pratt</owners>
@@ -15,7 +15,7 @@
 
       <requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<description>
-      An MvvmLight helper for calling RaisePropertyChanged on the UI thread from a PCL. See Project Site for more details
+      An MvvmLight helper for calling RaisePropertyChanged on the UI thread from a PCL. See Project Site for instructions.
     </description>
 		<summary>An MvvmLight helper for calling RaisePropertyChanged on the UI thread from a PCL.</summary>
 		<tags>xamarin, android, ios, uwp, mvvmlight, main thread, ui thread, raisepropertychanged, dispatch, dispatcher, helper, dispatcherhelper</tags>
