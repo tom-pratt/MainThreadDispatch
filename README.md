@@ -43,3 +43,4 @@ Add MainThreadDispatch to your PCL and platform projects. Currently supported pl
 - Xamarin.Android
 - Xamarin.iOS
 - UWP
+- .Net 4.5 (just executes on the current thread, mainly for unit test projects)
