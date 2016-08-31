@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
 	<metadata minClientVersion="2.8.3">
 		<id>Sylapse.MainThreadDispatch</id>
-		<version>1.0.2</version>
+		<version>1.0.3</version>
 		<title>MainThreadDispatch for MvvmLight</title>
 		<authors>Tom Pratt</authors>
 		<owners>Tom Pratt</owners>
@@ -90,6 +90,9 @@
 		<!--Xamarin.iOS-->
 		<file src="..\src\Sylapse.MainThreadDispatch.iOS\bin\Release\Sylapse.MainThreadDispatch.dll" target="lib\Xamarin.iOS10\Sylapse.MainThreadDispatch.dll" />
 
+    <!--net 4.5-->
+     <file src="..\src\Sylapse.MainThreadDispatch.Net45\bin\Release\Sylapse.MainThreadDispatch.dll" target="lib\net45\Sylapse.MainThreadDispatch.dll" />
+    
     <!--UWP-->
     <file src="..\src\Sylapse.MainThreadDispatch.UWP\bin\Release\Sylapse.MainThreadDispatch.dll" target="lib\UAP10\Sylapse.MainThreadDispatch.dll" />
     <file src="..\src\Sylapse.MainThreadDispatch.UWP\bin\Release\Sylapse.MainThreadDispatch.pdb" target="lib\UAP10\Sylapse.MainThreadDispatch.pdb" />
